@@ -1,0 +1,27 @@
+.top{
+    height: auto;
+    width: 100%;
+    margin-left: 0%;
+    position:fixed;
+    top: 0; 
+    margin-bottom: 5px;
+    background: #24292F;
+    color: white;
+}
+
+.top ul{
+    padding: 0;
+    width: auto;
+    list-style-type: none;
+
+}
+
+.top li{
+    float:left;
+    margin-right: 2%;
+    position: relative;
+}
+
+.top li p{
+    display: block;
+}
