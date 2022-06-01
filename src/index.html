@@ -3,45 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <title>Tuna</title>
+    <link type="image/x-icon" href="data:image/x-icon;icons/Tuna.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
-
-  
+    <link rel="shortcut icon" href="icons/Tuna.ico">
 </head>
 <body>
-    <form class="login_box">
-        <input type="text" class="input_name" placeholder="name">
-        <input type="password" class="input_password" placeholder="password">
-        <input type="submit" class="btn" value="sign in">
-    </form>
-
-
- 
-    <!-- <div class="top">
-        <p>
-            <img  src="images/Tuna.png" width="64" height="64">
-        </p> <ul>
-            <li>功能</li>
-            <li>下载</li>
-            <li>关于</li>
-        </ul>
-    </div> -->
-
-    <!-- <div>
-        <img  src="images/Tuna.png" width="64" height="64">
-        <h1 >标题</h1>
-        <p >sad</p>
-        <p class="center">sad</p>
-        <span>
-      
-        </span>
-
+   
+    <div class="top_box">
+        <img src="images/Tuna.png" height="46" width="46" >
     </div>
 
-    <a  href="https://github.com/shichuyibushishiwu">shichuyibushishiwu</a>
-    <ol>
-        <li>sd</li>
-        <li class="center">sffa</li>
-    </ol> -->
+    <div class="content">
+        <h1>Shiwu的金枪鱼</h1>
+        <div class="profile">
+            <p>金枪鱼是一款基于Revit开发的插件，它的存在是为了帮助我们更快的开发Revit样板</p>
+            <p>目前支持Revit版本 2018.2-2023</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2>功能</h2>
+        <h3>过滤器模块</h3>
+        <div id="title">
+            <img id="icon" src="icons/ActiveFilters.png">
+            <h4> 当前视图过滤器</h4>
+        </div>
+      
+        <ul>
+            <li>添加过滤器：可以选择项目中已有的过滤器应用到当前视图中</li>
+            <li>移除过滤器：把选择的过滤器从当前视图移出</li>
+            <p id="tip">Tip : 此功能支持多选进行过滤器可见性的修改；如果当前视图已经应用了一个视图样板，那对改功能的所有操作都将会修改视图样板过滤器</p>
+        </ul>
+        
+        <div id="title">
+            <img id="icon" src="icons/DuplicateFilterTool.png">
+            <h4>复制其他视图过滤器</h4>
+        </div>
+        <ul>
+            <li>复制过滤器：根据你所选择的其他视图的过滤器，复制到当前视图，同时会复制过滤器的可见性设置</li>
+        </ul>
+        <br>
+        <h3>资源模块</h3>
+        <div id="title">
+            <img id="icon" src="icons/Materials.png">
+            <h4>材质管理</h4>
+        </div>
+      
+        <ul>
+            <li>创建材质：在当前项目中创建一个材质，与原生功能不同的是，使用本功能创建材质的时候，会一同创建一个材质资源，与材质同名</li>
+            <li>编辑材质：修改当前所选择的材质属性</li>
+            <li>复制材质：复制当前所选择材质</li>
+            <li>删除材质：批量删除所选择的材质</li>
+            <li>导入材质：开发中...</li>
+            <li>导出材质：开发中...</li>
+        </ul>
+
+        <div id="title">
+            <img id="icon" src="icons/DuplicateViews.png">
+            <h4>复制视图</h4>
+        </div>
+      
+        <ul>
+            <li>复制视图：在Revit中选择视图节点后，点击该功能，并修改所选择的视图的属性。</li>
+            <p id="tip">Tip : 所选择的视图应是同层级下的视图</p>
+        </ul>
+
+        <div id="title">
+            <img id="icon" src="icons/DuctSystemType.png">
+            <h4>风管系统</h4>
+        </div>
+      
+       
+        <ul>
+            <li>创建系统：根据输入的参数创建系统</li>
+            <li>编辑系统：修改当前所选择的系统属性</li>
+            <li>删除系统：删除当前所选择的系统</li>
+            <li>复制系统：复制当前所选择的系统</li>
+            <li>创建过滤器：根据你所选择的系统，在项目中创建视图过滤器，过滤器名称与视图名称相同</li>
+        </ul>
+        <div id="title">
+            <img id="icon" src="icons/PipeSystemType.png">
+            <h4>管道系统</h4>
+        </div>
+     
+        <ul>
+          <p id="tip">同风管系统</p>
+        </ul>
+
+        <div id="title">
+            <img id="icon" src="icons/CableTrayType.png">
+            <h4>桥架类型</h4>
+        </div>
+    
+        <ul>
+            <li>复制桥架：复制你所选择的桥架以及配件类型</li>
+            <p id="tip">Tip ：桥架配件将与桥架类型名称相同</p>
+            <li>删除桥架：删除你所选择的桥架以及配件类型</li>
+            <li>创建过滤器：根据你所选择的桥架类型，在项目中创建视图过滤器</li>
+        </ul>
+        <br>
+        <h3>垃圾清理</h3>
+        <div id="title">
+            <img id="icon" src="icons/Filters.png">
+            <h4>过滤器</h4>
+        </div>
+        <ul>
+            <li>删除：批量删除不需要的过滤器</li>
+        </ul>
+     
+
+        <div id="title">
+            <img id="icon" src="icons/LinePatterns.png">
+            <h4>线型图案</h4>
+        </div>
+       
+        <ul>
+            <li>删除：批量删除不需要的线型图案</li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <h2>下载</h2>
+        <div class="download">
+            <p>本产品当前仅面向《样板课程》的小伙伴</p>
+            <a id="ds" href="release/TunaForRevit(18.2-23)_2.4.exe">下载软件</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2>开发者</h2>
+        <div class="coder">
+            <a href="https://github.com/shichuyibushishiwu" target="_blank">
+                <img style="border-radius:50%!important" 
+                width="64px" 
+                alt="shichuyibushishiwu" 
+                src="https://avatars.githubusercontent.com/u/49446319?s=64&v=4">
+               </a>
+        </div>
+      
+        <br>
+        <br>
+        <br>
+        <h2>给我的建议</h2>
+        <div class="message">
+            <p>如果你在使用过程中有任何的疑问或者建议，欢迎你联系我</p>
+            <p>你可以在群里@我</p>
+            <p>也可以选择发送邮箱到1012201478@qq.com</p>
+        </div>
+      
+    </div>
+
+    <div class="bottom_box">
+        <p>power by @shichuyibushishiwu</p>
+        <a href="https://github.com/shichuyibushishiwu"   target="_blank">Github</a>
+    </div>
+   
  
 </body>
 </html>

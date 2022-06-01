@@ -1,55 +1,122 @@
-.top{
-    height: auto;
-    width: 100%;
-    margin-left: 0%;
-    position:fixed;
-    top: 0; 
-    margin-bottom: 5px;
-    background: #24292F;
-    text-align: center;
-    color: white;
-}
-
-.top ul{
-    padding: 0;
- 
-    text-align: center;
-    width: auto;
-    list-style-type: none;
-
-}
-
-.top li{
-    float:left;
-    margin-right: 2%;
-    font-weight: bold;
-    position: relative;
-}
-
-.top li p{
-    display: block;
-}
-
-.top image{
-    align-content: center;
-}
-
-p{
-    text-align: center;
-}
 
 body{
-    margin: 0;
-    padding: 0;
-  
+    margin: 0px;
+    padding: 0px;
 }
 
 
-.login_box{
-    width: 300px;
-    padding: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-   transform: translate(-50%,-50%);
+.top_box{
+    background-color: #D7D8D9;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 0px 20px 0px rgba(170, 170, 170, 0.486);
+}
+
+.content{
+    max-width: 712px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.content .profile{
+    text-align: center;
+}
+
+.content p{
+    color: #575757;
+    font-size: 15px;
+}
+
+.content li{
+    color: #575757;
+    line-height: 30px;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.content h1{
+    color: #525252;
+    text-align: center;
+    font-size: 45px;
+}
+
+.content h2{
+    color: #525252;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content h3{
+    color: #525252;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+.content .download{
+    text-align: center;
+}
+
+.content .coder{
+    text-align: center;
+}
+
+.content .message{
+    text-align: center;
+}
+
+.bottom_box{
+    background-color: #24292F;
+  
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+}
+
+.bottom_box p{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.bottom_box a{
+    color: white;
+ 
+}
+
+#tip{
+    color: rgb(170, 170, 170);
+    line-height: 28px;
+    font-size: 15px;
+}
+
+#title{
+    background-color: rgba(170, 170, 170, 0.486);
+}
+
+.content #title h4{
+    color: #525252; 
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 0px;
+}
+
+#icon{
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+#ds{
+    color: #858585;
 }
